@@ -6,7 +6,7 @@ using UnityEngine.Rendering;
 public class GraphicsContol : MonoBehaviour
 {
     [SerializeField] private Toggle _postProcessing;
-    [SerializeField] private Toggle _antiAlacing;
+    [SerializeField] private Toggle _antiAlacing;   
     private void Start()
     {
         Debug.Log(PlayerPrefs.GetInt("PostProcessing"));
